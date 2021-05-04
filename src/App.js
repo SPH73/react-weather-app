@@ -13,7 +13,16 @@ function App() {
       <main>
         <Forecast />
       </main>
-      <footer>Page created by yournamehere</footer>
+      <footer>
+        Page created by Sue Holder using create-react-app and
+        <a
+          href="https://rapidapi.com/blog/weather-app-react/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          RapidAPI
+        </a>
+      </footer>
     </div>
   );
 }
